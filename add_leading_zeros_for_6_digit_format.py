@@ -7,3 +7,4 @@ input_number = int(input("Enter a number (0 - 1000): "))
 fixed_format = str(input_number).zfill(6)
 
 # Print ouput numbers.
+print(f"Fixed format : {fixed_format}")
