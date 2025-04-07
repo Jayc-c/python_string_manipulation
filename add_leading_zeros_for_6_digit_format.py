@@ -4,4 +4,6 @@
 input_number = int(input("Enter a number (0 - 1000): "))
 
 # Change user's input to string then add zeroes using zfill().
+fixed_format = str(input_number).zfill(6)
+
 # Print ouput numbers.
