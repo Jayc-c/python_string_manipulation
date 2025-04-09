@@ -7,3 +7,4 @@ full_name = input("Enter full name: ")
 capitalized_name = full_name.lower()
 
 # Print the formatted output.
+print(f"Full name in lower case: {capitalized_name}")
