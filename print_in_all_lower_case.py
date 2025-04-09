@@ -4,4 +4,6 @@
 full_name = input("Enter full name: ")
 
 # Format the user's input into all capital letters.
+capitalized_name = full_name.lower()
+
 # Print the formatted output.
