@@ -4,4 +4,6 @@
 full_name = input("Enter full name: ")
 
 # Format the incorrect casing into proper casing.
+fixed_case = full_name.title()
+
 # Print formatted input.
