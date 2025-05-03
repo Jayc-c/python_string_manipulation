@@ -7,3 +7,4 @@ full_name = input("Enter your full name in incorrect casing: ")
 pascal_case = full_name.title().replace(" ", "")
 
 # Print the formatted output in pascal casing.
+print(f"Pascal casing: {pascal_case}")
