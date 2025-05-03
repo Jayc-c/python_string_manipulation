@@ -1,4 +1,9 @@
 # Prog07: Create a program that ask the user to input a complete statement. Print the number of words in the input.
+
 # Ask user to input a complete statement.
-# Identify the number of words in the inputted statement.
-# Print output.
+statement = input("Enter a complete statement: ")
+
+# Split the statement into words using whitespace and count them
+word_count = len(statement.split())
+
+# Print the number of words in the statement.
