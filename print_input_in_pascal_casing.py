@@ -4,4 +4,6 @@
 full_name = input("Enter your full name in incorrect casing: ")
 
 # Convert to title case, remove spaces to make PascalCase.
+pascal_case = full_name.title().replace(" ", "")
+
 # Print the formatted output in pascal casing.
