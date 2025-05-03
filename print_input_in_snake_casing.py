@@ -4,4 +4,6 @@
 full_name = input("Enter your full name in incorrect casing: ")
 
 # Convert to lowercase and replace spaces with underscores.
+snake_case = full_name.lower().replace(" ", "_")
+
 # Print the the formatted output in snake case.
