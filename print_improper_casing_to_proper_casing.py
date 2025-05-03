@@ -7,3 +7,4 @@ full_name = input("Enter full name: ")
 fixed_case = full_name.title()
 
 # Print formatted input.
+print(f"Fixed casing: {fixed_case}")
